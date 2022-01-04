@@ -1,0 +1,22 @@
+{
+  "name": "Image-cropper",
+  "version": "0.1.0",
+  "summary": "A short description of Image-cropper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/32827363/Image-cropper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "32827363": "songvuthy93@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/32827363/Image-cropper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Image-cropper/Classes/**/*"
+}

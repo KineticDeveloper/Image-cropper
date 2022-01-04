@@ -1,0 +1,6 @@
+framework module Image_cropper {
+  umbrella header "Image-cropper-umbrella.h"
+
+  export *
+  module * { export * }
+}
