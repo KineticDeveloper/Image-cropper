@@ -1,16 +1,23 @@
 PODS:
-  - Image-cropper (0.1.0)
+  - Image-cropper (1.0.0):
+    - SnapKit (~> 5.0.0)
+  - SnapKit (5.0.1)
 
 DEPENDENCIES:
   - Image-cropper (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
   Image-cropper:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Image-cropper: 8b027a55cf9f8683220d1f7da826142ce8838532
+  Image-cropper: eed1a54c8c9b69812cd18a71412cec5d6b936c70
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 7c3ba2aebe9415c4ea3b9372eeea43c8e6a6ab05
+PODFILE CHECKSUM: 2fa4dc828b3c07e88690285951db375a62d9cf5c
 
 COCOAPODS: 1.11.2

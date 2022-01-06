@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/songvuthy/Image-cropper.git', :tag => s.version.to_s }
   s.ios.deployment_target = '12.0'
   s.source_files = 'Image-cropper/Classes/**/*'
+  s.resources    = "Image-cropper/Assets/**/*.xcassets"
   
   s.frameworks   = 'UIKit', 'AVFoundation'
   s.dependency 'SnapKit', '~> 5.0.0'

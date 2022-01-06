@@ -1,13 +1,8 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '12.0'
 
 target 'Image-cropper_Example' do
   pod 'Image-cropper', :path => '../'
 
-  target 'Image-cropper_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

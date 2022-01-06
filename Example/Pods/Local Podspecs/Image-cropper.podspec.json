@@ -1,9 +1,10 @@
 {
   "name": "Image-cropper",
-  "version": "0.1.0",
-  "summary": "A short description of Image-cropper.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/32827363/Image-cropper",
+  "version": "1.0.0",
+  "swift_versions": "5.0",
+  "summary": "Image Cropper is an open-source swift library that provides rich cropping interactions for your iOS.",
+  "description": "Image Cropper is an open-source swift library that provides rich cropping interactions for your iOS. Image Cropper also provide rich crop shapes from the basic ( 1:1, 6:4 and 4:6 ) to polygon to arbitrary paths",
+  "homepage": "https://github.com/songvuthy/Image-cropper",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +13,22 @@
     "32827363": "songvuthy93@gmail.com"
   },
   "source": {
-    "git": "https://github.com/32827363/Image-cropper.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/songvuthy/Image-cropper.git",
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "12.0"
   },
-  "source_files": "Image-cropper/Classes/**/*"
+  "source_files": "Image-cropper/Classes/**/*",
+  "resources": "Image-cropper/Assets/**/*.xcassets",
+  "frameworks": [
+    "UIKit",
+    "AVFoundation"
+  ],
+  "dependencies": {
+    "SnapKit": [
+      "~> 5.0.0"
+    ]
+  },
+  "swift_version": "5.0"
 }
